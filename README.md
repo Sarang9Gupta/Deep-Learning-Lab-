@@ -1,6 +1,6 @@
 ## Lab 1: Fully Connected Neural Network for MNIST Classification
 
-### Overview
+### Overview 
 Implemented a fully connected neural network using *NumPy* to classify handwritten digits from the *MNIST dataset*. The experiment demonstrates:
 - *Data Preprocessing*: Normalization, one-hot encoding.
 - *Model Training*: Forward and backward propagation.
