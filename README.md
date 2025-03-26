@@ -34,46 +34,6 @@ Trained neural networks on *linearly separable (e.g., line) and non-linearly sep
 
 ---
 
-## Lab 3: Convolutional Neural Networks (CNNs) for Image Classification
-
-### Overview
-Implemented *CNNs* for classifying images from the *Cats vs. Dogs* and *CIFAR-10* datasets. The experiment includes:
-- *CNN Architecture*: Feature extraction using convolutional layers.
-- *Activation Functions*: Experimenting with ReLU, Tanh, and Leaky ReLU.
-- *Weight Initialization*: Xavier, Kaiming, and Random.
-- *Optimizers*: SGD, Adam, RMSprop.
-- *Performance Evaluation: Comparing CNNs with a fine-tuned **ResNet-18*.
-
-### Concepts
-- *CNN (Convolutional Neural Network)*: Extracts spatial features from images.
-- *ResNet-18*: A deep CNN architecture with skip connections.
-- *Adam Optimizer*: Adaptive learning rate optimization.
-- *Xavier & Kaiming Initialization*: Methods to stabilize gradient flow in deep networks.
-
----
-
-## How to Run
-1. Ensure *NumPy, Matplotlib, and necessary libraries* are installed.
-2. Load datasets using standard libraries.
-3. Train models using the provided scripts.
-4. Evaluate performance on test data.
-
----
-
-## Results & Observations
-- Adding *hidden layers* improves performance on non-linear datasets.
-- *ReLU activation* is preferred for deep networks.
-- *CNNs outperform fully connected networks* in image classification.
-- *Fine-tuned ResNet-18* achieves better accuracy than custom CNNs.
-
----
-
-## Future Improvements
-- Implementing *Batch Normalization* and *Dropout*.
-- Experimenting with *Transfer Learning* for small datasets.
-- Fine-tuning hyperparameters for better generalization.
-"""
-
 ## Lab 4:  Poetry Generator using RNN (LSTM)
 
 This project is a simple poetry generator using a Recurrent Neural Network (RNN) with LSTM layers. It trains on a dataset of poems and generates new poetic lines based on learned patterns.
